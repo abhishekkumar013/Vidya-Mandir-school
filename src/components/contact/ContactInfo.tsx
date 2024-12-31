@@ -12,16 +12,18 @@ const ContactInfo = () => {
           <div className="flex items-center">
             <MapPin className="h-5 w-5 text-indigo-600" />
             <span className="ml-3 text-gray-600">
-              Totahar Dham, Duho Suho, Lakhaura, Bihar 845302
+              Totahar Math, Duhosuho, Lakhaura, East Champaran, Bihar, 845302
             </span>
           </div>
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <Phone className="h-5 w-5 text-indigo-600" />
             <span className="ml-3 text-gray-600">not available</span>
-          </div>
+          </div> */}
           <div className="flex items-center">
             <Mail className="h-5 w-5 text-indigo-600" />
-            <span className="ml-3 text-gray-600">not available</span>
+            <span className="ml-3 text-gray-600">
+              udgamvidyamandir@gmail.com
+            </span>
           </div>
         </div>
       </div>
