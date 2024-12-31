@@ -1,11 +1,11 @@
 import React from "react";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, YoutubeIcon, Youtube } from "lucide-react";
 
 const ContactInfo = () => {
   return (
     <div className="space-y-8">
       <div>
-        <h3 className="text-lg font-medium text-gray-900 mb-4">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">
           Contact Information
         </h3>
         <div className="space-y-4">
@@ -24,6 +24,17 @@ const ContactInfo = () => {
             <span className="ml-3 text-gray-600">
               udgamvidyamandir@gmail.com
             </span>
+          </div>
+          {/* https://www.youtube.com/@UDGAMVIDYAMANDIR */}
+          <div className="flex items-center">
+            <Youtube className="h-5 w-5 text-indigo-600" />
+            <a
+              href="https://www.youtube.com/@UDGAMVIDYAMANDIR"
+              target="_blank"
+              className="ml-3 text-gray-600"
+            >
+              YouTube
+            </a>
           </div>
         </div>
       </div>
