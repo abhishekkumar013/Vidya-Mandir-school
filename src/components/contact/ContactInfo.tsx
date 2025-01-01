@@ -9,21 +9,30 @@ const ContactInfo = () => {
           Contact Information
         </h3>
         <div className="space-y-4">
-          <div className="flex items-center">
+          <div className="flex items-center border-none">
             <MapPin className="h-5 w-5 text-indigo-600" />
-            <span className="ml-3 text-gray-600">
-              Totahar Math, Duhosuho, Lakhaura, East Champaran, Bihar, 845302
-            </span>
+            <a
+              className="border-none "
+              href="https://maps.app.goo.gl/ArP3wEmHHrbGwNvS7"
+              target="_blank"
+            >
+              <span className="ml-3 text-gray-600 border-none">
+                Totahar Math, Duhosuho, Lakhaura, East Champaran, Bihar, 845302
+              </span>
+            </a>
           </div>
           {/* <div className="flex items-center">
             <Phone className="h-5 w-5 text-indigo-600" />
             <span className="ml-3 text-gray-600">not available</span>
           </div> */}
           <div className="flex items-center">
-            <Mail className="h-5 w-5 text-indigo-600" />
-            <span className="ml-3 text-gray-600">
-              udgamvidyamandir@gmail.com
-            </span>
+            <a
+              href="mailto:udgamvidyamandir@gmail.com"
+              className="flex items-center space-x-3 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+            >
+              <Mail className="h-5 w-5 text-indigo-600" />
+              <span>udgamvidyamandir@gmail.com</span>
+            </a>
           </div>
           {/* https://www.youtube.com/@UDGAMVIDYAMANDIR */}
           <div className="flex items-center">
